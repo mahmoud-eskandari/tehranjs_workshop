@@ -1,0 +1,17 @@
+{
+    "name": "Tehran JS Slider",
+    "version": "0.0.1",
+    "description": "Just for test!",
+    "manifest_version": 2,
+    "chrome_url_overrides": {
+        "newtab": "newpage.html"
+    },
+    "browser_action": {
+        "default_icon": "./icons/time_16.png",
+        "default_popup": "popup.html"
+    },
+    "permissions" : [
+        "webRequest",
+         "*://*.mocky.io/"
+    ]
+}
